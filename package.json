@@ -1,14 +1,27 @@
 {
-  "name": "02-express",
+  "name": "express_socket_io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server /server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "socket.io": "^1.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hararm/express_socket_io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hararm/express_socket_io/issues"
+  },
+  "homepage": "https://github.com/hararm/express_socket_io#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }
